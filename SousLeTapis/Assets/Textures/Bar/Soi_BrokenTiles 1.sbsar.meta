@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: eb0c87be1a84c994aaee065971c32831
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 0
+  mGraphInstanceData:
+  - graphLabel: Broken Tiles
+    prototypeName: Broken Tiles
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://BrokenTiles\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"673609843\" type=\"8\" value=\"9,9\" />\n 
+      <presetinput identifier=\"Tile_MissingTiles\" uid=\"1608703225\" type=\"0\"
+      value=\"0\" />\n  <presetinput identifier=\"Tiles_BrokenNumbert\" uid=\"1608988037\"
+      type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Tiles_CracksNumber\"
+      uid=\"1608961867\" type=\"0\" value=\"0.05\" />\n  <presetinput identifier=\"Color_TileBaseColor\"
+      uid=\"1607576904\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Color_TileSecondary\"
+      uid=\"1608458501\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Color_TileSplashIntensity\"
+      uid=\"1607577404\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileSurfaceNoise\"
+      uid=\"1607551313\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileSideBrurnIntensity\"
+      uid=\"1607557854\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileSideBurnCoverage\"
+      uid=\"1607535144\" type=\"0\" value=\"-1\" />\n  <presetinput identifier=\"Color_TileSideBurnColor\"
+      uid=\"1607543135\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Color_TileWaterDamageIntensity\"
+      uid=\"1607542805\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_WaterDamageDirection\"
+      uid=\"1607637517\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_WaterDamageIntensity\"
+      uid=\"1607638024\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileChipColor\"
+      uid=\"1607519597\" type=\"2\" value=\"1,1,1\" />\n  <presetinput identifier=\"Color_TileChipDamage\"
+      uid=\"1607527670\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileChip\"
+      uid=\"1607502244\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Color_TileGrime\"
+      uid=\"1607502149\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_TileGrimeColor\"
+      uid=\"1607508728\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Color_TileColorVariation\"
+      uid=\"1607509786\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_BottomGroutColor\"
+      uid=\"1607483945\" type=\"2\" value=\"1,1,1\" />\n  <presetinput identifier=\"Color_BottomChipColor\"
+      uid=\"1607497872\" type=\"2\" value=\"1,1,1\" />\n  <presetinput identifier=\"Color_BottomGlobsColor\"
+      uid=\"1607472517\" type=\"2\" value=\"1,1,1\" />\n  <presetinput identifier=\"Color_BottomDirtColor\"
+      uid=\"1607714957\" type=\"3\" value=\"1,1,1,1\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: 5444182000028403208, guid: eb0c87be1a84c994aaee065971c32831,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 5, y: 5}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 4468458565848337277, guid: eb0c87be1a84c994aaee065971c32831,
+          type: 3}
+        scale: {x: 5, y: 5}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: -6979341480218699079, guid: eb0c87be1a84c994aaee065971c32831,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: 9069590517512678711, guid: eb0c87be1a84c994aaee065971c32831,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1.3
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0.356
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 1
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: BC
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: N
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: 
+      identifier: NOpenGL
+      usageName: UNKNOWN
+      channelStr: 
+      label: Normal OpenGL
+      usage: 36
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: R
+      usageName: roughness
+      channelStr: roughness
+      label: Roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: diffuse
+      identifier: M
+      usageName: diffuse
+      channelStr: diffuse
+      label: Metallic
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: ambientOcclusion
+      identifier: AO
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: Ambient Occlusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: H
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: OMR
+      identifier: OMR
+      usageName: UNKNOWN
+      channelStr: 
+      label: Occlusion Metallic Roughness
+      usage: 36
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: OMRH
+      identifier: OMRH
+      usageName: UNKNOWN
+      channelStr: 
+      label: Occlusion Metallic Roughness Metallic Height
+      usage: 36
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: MR
+      identifier: MR
+      usageName: UNKNOWN
+      channelStr: 
+      label: Metallic Roughness (Unity)
+      usage: 36
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: D
+      identifier: D
+      usageName: baseColor
+      channelStr: baseColor
+      label: Diffuse
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: S
+      identifier: S
+      usageName: baseColor
+      channelStr: baseColor
+      label: Specular
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: G
+      identifier: G
+      usageName: baseColor
+      channelStr: baseColor
+      label: Glossiness
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: baseColor
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: 
+      components:
+      - sourceName: 
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: OMR
+      components:
+      - sourceName: OMR
+        from: 0
+        to: 3
+    - targetName: OMRH
+      components:
+      - sourceName: OMRH
+        from: 0
+        to: 3
+    - targetName: MR
+      components:
+      - sourceName: MR
+        from: 0
+        to: 3
+    - targetName: D
+      components:
+      - sourceName: D
+        from: 0
+        to: 3
+    - targetName: S
+      components:
+      - sourceName: S
+        from: 0
+        to: 3
+    - targetName: G
+      components:
+      - sourceName: G
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Broken Tiles - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: 'Broken Tiles - '
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - OMR
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - OMRH
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - MR
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - D
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - S
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Broken Tiles - G
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 5241590295194777884, guid: eb0c87be1a84c994aaee065971c32831,
+      type: 3}
+    generatedTextures:
+    - {fileID: 4468458565848337277, guid: eb0c87be1a84c994aaee065971c32831, type: 3}
+    - {fileID: 5444182000028403208, guid: eb0c87be1a84c994aaee065971c32831, type: 3}
+    - {fileID: -6979341480218699079, guid: eb0c87be1a84c994aaee065971c32831, type: 3}
+    - {fileID: 9069590517512678711, guid: eb0c87be1a84c994aaee065971c32831, type: 3}
